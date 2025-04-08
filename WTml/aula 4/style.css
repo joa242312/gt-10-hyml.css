@@ -28,7 +28,7 @@ body{
     font-weight: bold;
 }
 .container header .navegacao{
-    height: 100%;
+    height: 75%;
     width: 80%;
     display: flex;
     align-items: center;
@@ -40,13 +40,14 @@ body{
     padding-left:20px;
 }
 .container header .navegacao  a{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
 }
+.container header .navegacao nav #select{
+    font-weight: bold;
+}
+
 
 .container header .btms{
     display: flex;

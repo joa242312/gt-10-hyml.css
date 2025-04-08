@@ -1,0 +1,80 @@
+body{ 
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.Conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.Conteiner .esquerdar{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(207, 30, 139);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius:150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Conteiner .esquerdar h1{
+    font-size: 50px;
+}
+.Conteiner .esquerdar p{
+    font-size: 30px;
+}
+.Conteiner .esquerdar button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.Conteiner .Direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Conteiner .Direita h1{
+    font-size: 20px;
+}
+.Conteiner .Direita .inp{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    background-color:#eded;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.Conteiner .Direita .inp .Campo{
+    width: 90%;
+    height: 100%;
+}
+.Conteiner .Direita .inp .Campo input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 10%;
+    padding-left: 10%;
+    font-size: 15%;
+}
+.Conteiner .Direita .inp .icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #7c7c7c;  
+}
