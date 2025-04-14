@@ -4,3 +4,4 @@ const Diaria = Recederar * valor
 console.log(Diaria)
 }
 calcularAluguel(5)
+calcularAluguel(10)
