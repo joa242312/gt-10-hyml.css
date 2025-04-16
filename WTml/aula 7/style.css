@@ -1,15 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .container{
     width: 100%;
     height: 100vh;
     display: flex;
     background-color: black;
-    color: aliceblue;
+    color: white;
 }
+
 .container .esquerda{
     width: 50%;
     height: 100%;
@@ -17,10 +19,117 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .container .direita{
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container .direita .card{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.container .direita .card .Topo .linha{
+    width: 150px;
+    height: 4px;
+    background-color:#d2f700;
+    border-radius: 5px;
+}
+
+.container .direita .card .Topo h1{
+    line-height: 0px;
+}
+
+.container .direita .card .Meio .inp .campo{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    background-color: #202020;
+}
+.container .direita .card .Meio .inp label{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.container .direita .card .Meio{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container .direita .card .inp .campo icone{
+   width: 10%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container .direita .card .inp .campo .campo-input{
+width: 80%;
+height: 100%;    
+}
+.container .direita .card .inp .campo .campo-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: beige;
+    outline: none;
+}
+.container .direita .card .inp .campo .campo-input .valor{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.container .direita  .card .Meio button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d2f700;
+    color: white;
+    font-weight: bold;
+}
+.container .direita .card .Fim{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    flex-direction: column;
+}
+.container .direita .card .Fim .linha{
+    width: 100%;
+    height: 1px;
+    background-color: #7e7e7e;
+}
+.container .direita .card .Fim .resultado{
+    width: 100%;
+    display: flex;
+}
+.container .direita .card .Fim .resultado .esquerda{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .direita .card .Fim .resultado .esquerda h2{
+    color: #d2f700;
+    line-height: 0px;
 }
